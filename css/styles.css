@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lora:wght@400;700&display=swap');
+
+:root {
+    --cor-primaria: #4CAF50;
+    --cor-secundaria: #ffffff;
+    --cor-texto: #333333;
+    --cor-cabecalho: #4CAF50;
+}
+
+/* GERAIS */
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lora', serif;
+    color: var(--cor-texto);
+    background-color: #f9f9f9;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: var(--cor-cabecalho);
+    color: var(--cor-secundaria);
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* ESTILOS PÁGINA INICIAL */
+
+.bg-cabecalho {
+    background-color: var(--cor-cabecalho);
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.noticia-destaque p, .noticia-card .card-text {
+    color: #555;
+}
+
+.btn-leia-mais {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-leia-mais:hover {
+    background-color: #45a049;
+}
+
+.noticia-card {
+    margin-bottom: 20px;
+}
+
+.noticia-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* ESTILOS DEDICADOS AS PÁGINAS DE NOTÍCIA */
+
+.noticia-principal {
+    margin-bottom: 30px;
+}
+
+.noticia-principal h1 {
+    font-size: 2rem;
+    color: var(--cor-texto);
+}
+
+.noticia-principal img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.sidebar {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.sidebar h3 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+}
+
+.sidebar ul {
+    padding-left: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* ESTILOS DEDICADOS A PÁGINA SOBRE */
+
+.sobre-mim {
+    margin-bottom: 30px;
+}
+
+.sobre-mim h1 {
+    font-size: 2.5rem;
+    color: var(--cor-texto);
+    margin-bottom: 20px;
+}
+
+.sobre-mim h2 {
+    font-size: 1.75rem;
+    color: var(--cor-texto);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.sobre-mim p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--cor-texto);
+}
+
+.sobre-mim img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid var(--cor-primaria);
+}
