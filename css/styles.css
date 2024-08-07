@@ -70,6 +70,17 @@ h1, h2, h3 {
     object-fit: cover;
 }
 
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+button a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
 /* ESTILOS DEDICADOS AS PÁGINAS DE NOTÍCIA */
 
 .noticia-principal {
