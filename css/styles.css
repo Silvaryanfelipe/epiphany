@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lora:wght@400;700&display=swap');
 
 :root {
-    --cor-primaria: #4CAF50;
+    --cor-primaria: #5773cd;
     --cor-secundaria: #ffffff;
     --cor-texto: #333333;
-    --cor-cabecalho: #4CAF50;
+    --cor-cabecalho: #5773cd;
 }
 
 /* GERAIS */
@@ -57,7 +57,8 @@ h1, h2, h3 {
 }
 
 .btn-leia-mais:hover {
-    background-color: #45a049;
+    background-color: #33447f;
+    color: #fff;
 }
 
 .noticia-card {
