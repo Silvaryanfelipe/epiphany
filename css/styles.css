@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lora:wght@400;700&display=swap');
 
 :root {
-    --cor-primaria: #5773cd;
+    --cor-primaria: #1c3c2a;
     --cor-secundaria: #ffffff;
     --cor-texto: #333333;
-    --cor-cabecalho: #5773cd;
+    --cor-cabecalho: #1c3c2a;
 }
 
 /* GERAIS */
@@ -20,7 +20,7 @@ body {
     flex-direction: column;
     font-family: 'Lora', serif;
     color: var(--cor-texto);
-    background-color: #f9f9f9;
+    background-color: #c9c8c8;
 }
 
 main {
@@ -40,12 +40,12 @@ footer {
     background-color: var(--cor-cabecalho);
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
 
-.noticia-destaque p, .noticia-card .card-text {
+.parte-destaque p, .publi-card .card-text {
     color: #555;
 }
 
@@ -57,15 +57,15 @@ h1, h2, h3 {
 }
 
 .btn-leia-mais:hover {
-    background-color: #33447f;
+    background-color: #0d2015;
     color: #fff;
 }
 
-.noticia-card {
+.publi-card {
     margin-bottom: 20px;
 }
 
-.noticia-card .card-img-top {
+.publi-card .card-img-top {
     height: 200px;
     object-fit: cover;
 }
@@ -83,30 +83,33 @@ button a:hover {
 
 /* ESTILOS DEDICADOS AS PÁGINAS DE NOTÍCIA */
 
-.noticia-principal {
+.parte-principal {
     margin-bottom: 30px;
 }
 
-.noticia-principal h1 {
+.parte-principal h1 {
     font-size: 2rem;
     color: var(--cor-texto);
 }
 
-.noticia-principal img {
+.parte-principal img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
 }
 
+/* Adiciona margem superior ao título "Outras Histórias" */
 .sidebar {
-    background-color: #f8f9fa;
+    background-color: #f9f9f9;
     padding: 15px;
     border-radius: 8px;
+    margin-top: 17%; /* Ajuste este valor conforme necessário */
 }
 
 .sidebar h3 {
     font-size: 1.25rem;
     margin-bottom: 15px;
+    text-align: center; /* Centraliza o título */
 }
 
 .sidebar ul {
@@ -115,6 +118,7 @@ button a:hover {
 
 .sidebar ul li {
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .sidebar ul li a {
