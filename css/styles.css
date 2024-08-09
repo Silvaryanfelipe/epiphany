@@ -9,7 +9,8 @@
 
 /* GERAIS */
 
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
 }
@@ -40,12 +41,16 @@ footer {
     background-color: var(--cor-cabecalho);
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
 
-.parte-destaque p, .publi-card .card-text {
+.parte-destaque p,
+.publi-card .card-text {
     color: #555;
 }
 
