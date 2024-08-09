@@ -103,13 +103,13 @@ button a:hover {
     background-color: #f9f9f9;
     padding: 15px;
     border-radius: 8px;
-    margin-top: 17%; /* Ajuste este valor conforme necessário */
+    margin-top: 17%;
 }
 
 .sidebar h3 {
     font-size: 1.25rem;
     margin-bottom: 15px;
-    text-align: center; /* Centraliza o título */
+    text-align: center;
 }
 
 .sidebar ul {
